@@ -6,7 +6,7 @@ var enemyAnswer = ''
         $(".rock").click(function () {
         $('.playerGenerated').empty();
         $('.computerGenerated').empty();
-        $('.playerGenerated').html('<img class="rock" src="http://1000awesomethings.com/wp-content/uploads/2008/08/rock.jpg" height="50px" width="50px"/>')
+        $('.playerGenerated').html('<img class="rock" src="http://1000awesomethings.com/wp-content/uploads/2008/08/rock.jpg" height="100px" width="100px"/>')
         var playerInput = "rock"
         randomMe();
         compareAnswers(playerInput, enemyAnswer)
@@ -15,7 +15,7 @@ var enemyAnswer = ''
         $(".paper").click(function () {
         $('.playerGenerated').empty();
         $('.computerGenerated').empty();
-        $('.playerGenerated').html('<img class="rock" src="http://1000awesomethings.com/wp-content/uploads/2008/08/paper.jpg" height="50px" width="50px"/>')
+        $('.playerGenerated').html('<img class="rock" src="http://1000awesomethings.com/wp-content/uploads/2008/08/paper.jpg" height="100px" width="100px"/>')
         var playerInput = "paper"
         randomMe();
         compareAnswers(playerInput, enemyAnswer)
@@ -24,7 +24,7 @@ var enemyAnswer = ''
         $('.scissors').click(function () {
         $('.playerGenerated').empty();
         $('.computerGenerated').empty();
-        $('.playerGenerated').html('<img class="rock" src="http://1000awesomethings.com/wp-content/uploads/2008/08/scissors.jpg" height="50px" width="50px"/>')
+        $('.playerGenerated').html('<img class="rock" src="http://1000awesomethings.com/wp-content/uploads/2008/08/scissors.jpg" height="100px" width="100px"/>')
         var playerInput = "scissors"
         randomMe();
         compareAnswers(playerInput, enemyAnswer)
@@ -36,15 +36,15 @@ var enemyAnswer = ''
     switch (randomRPS) {
         case 0:
             enemyAnswer = "rock";
-            $('.computerGenerated').html('<img src="http://1000awesomethings.com/wp-content/uploads/2008/08/rock.jpg" height="50px" width="50px"/>')
+            $('.computerGenerated').html('<img src="http://1000awesomethings.com/wp-content/uploads/2008/08/rock.jpg" height="100px" width="100px"/>')
             break;
         case 1: 
             enemyAnswer = "paper";
-             $('.computerGenerated').html('<img src="http://1000awesomethings.com/wp-content/uploads/2008/08/paper.jpg" height="50px" width="50px"/>')
+             $('.computerGenerated').html('<img src="http://1000awesomethings.com/wp-content/uploads/2008/08/paper.jpg" height="100px" width="100px"/>')
              break;
         case 2:
             enemyAnswer = "scissors";
-            $('.computerGenerated').html('<img src="http://1000awesomethings.com/wp-content/uploads/2008/08/scissors.jpg" height="50px" width="50px"/>')
+            $('.computerGenerated').html('<img src="http://1000awesomethings.com/wp-content/uploads/2008/08/scissors.jpg" height="100px" width="100px"/>')
 
             break; 
         }  
